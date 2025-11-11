@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+}
+#text{
+  font-size: 28px;
+}
+.btn{
+  color: white !important;
+  float: right;
+}
+.tweet-box {
+  border-radius: 2px;
+  color: white !important;
+  font-size: 24px !important;
+  padding: 5px;
+  margin: 2px;
+}
+#quote-box {
+  background: white;
+  border-radius: 3px;
+  width: 450px;
+  padding: 40px 50px;
+  background-color: #fff;
+}
+#body-style-0, .box-0 .btn, #tweet-quote-0 {
+  background-color: rgb(251, 105, 100);
+  color: rgb(251, 105, 100);
 }
 
-.App-link {
-  color: #61dafb;
+#body-style-1,.box-1 .btn, #tweet-quote-1 {
+  background-color: rgb(39, 174, 96);
+  color: rgb(39, 174, 96);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#body-style-2,.box-2 .btn, #tweet-quote-2 {
+  background-color: rgb(155, 89, 182);
+  color: rgb(155, 89, 182);
+}
+
+#body-style-3,.box-3 .btn, #tweet-quote-3 {
+  background-color: rgb(44, 62, 80);
+  color: rgb(44, 62, 80);
+}
+
+#body-style-4,.box-4 .btn, #tweet-quote-4 {
+  background-color: rgb(119, 177, 169);
+  color: rgb(119, 177, 169);
+}
+
+#body-style-5,.box-5 .btn, #tweet-quote-5 {
+  background-color: brown;
+  color: brown;
 }
